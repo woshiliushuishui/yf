@@ -1,0 +1,158 @@
+/* 乐购-图书折扣区 */
+#book-discount .re-title h2{
+    width: 220px;
+    line-height: 40px;
+    background-color: #ff6600;
+    /* height: 500px; */
+}
+/* 图书内容 */
+#book-discount .book-content{
+    list-style: none;
+}
+#book-discount .book-content li{
+    width: 240px;
+    height: 258px;
+    border: 0;
+    float: left;
+}
+#book-discount .book-content li .bookimg{
+    vertical-align: middle;
+}
+#book-discount .book-content li .xinxin{
+    vertical-align: top;
+}
+#book-discount .book-content li p{
+    line-height: 25px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+/* 新书上架 */
+/* 标题 */
+.re-title:first-child h2{
+    padding: 1px 4px;
+}
+/* 左边 */
+#newbook .l-book-content{
+    width: 900px;
+}
+#newbook .l-book-content ul{
+    width: 900px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+}
+#newbook .l-book-content ul li{
+    list-style: none;
+    width: 170px;
+    float: left;
+    margin-left: 8px;
+}
+#newbook .l-book-content ul li p{
+    line-height: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+/* 右边 */
+#newbook .re-book{
+    width: 284px;
+    height: 504px;
+    border: 1px solid #e6e6e6;
+}
+/* 内容 */
+#newbook .re-book ul li{
+    position: relative;
+    list-style: none;
+    height: 41px;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+#newbook .re-book ul li.cur{
+    height: 174px;
+}
+#newbook .re-book ul li div{
+    
+    height: 160px;
+}
+#newbook .re-book h3{
+    line-height: 36px;
+}
+#newbook .re-book p{
+    width: 126px;
+    line-height: 18px;
+}
+#newbook .re-book span{
+    position: absolute;
+    top: 0;
+    left: 246px;
+    display: inline-block;
+    padding: 0 5px;
+    color: #ffffff;
+}
+/* 独家提供 */
+.re-title ul li{
+    list-style: none;
+    float: left;
+    width: 94px;
+    line-height: 34px;
+}
+.re-title ul li.active{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+/* 内容轮播 */
+#exclusive-offers .ex-content{
+    border-bottom: 1px solid #e6e6e6;
+}
+#exclusive-offers .ex-content ul>li>ul>li{
+    width: 170px;
+    height: 222px;
+    list-style: none;
+}
+#exclusive-offers .ex-content ul>li>ul>li img{
+    width: 150px !important;
+    height: 150px !important;
+}
+#exclusive-offers .ex-content ul>li>ul>li p{
+    line-height: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+/* 独家提供选项卡 */
+#exclusive-offers .ex-content>div{
+    display: none;
+}
+#exclusive-offers .ex-content>div.cur{
+    display: block;
+}
+/* 猜你喜欢 */
+#like .re-title p {
+    cursor: pointer;
+}
+#like ul{
+    border-bottom: 1px solid #e6e6e6;
+}
+#like ul li{
+    width: 170px;
+    height: 222px;
+    list-style: none;
+}
+#like ul li p{
+    line-height: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+/* 换一换 */
+#like .likeslider{
+    /* background-color: pink; */
+    position: relative;
+    height: 513px;
+    overflow: hidden;
+}
+#like .likeslider .likesliderbox{
+    position: absolute;
+    width: 100%;
+}
+#like .re-title p img{
+    vertical-align: top;
+}

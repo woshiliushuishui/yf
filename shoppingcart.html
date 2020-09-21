@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入轮播样式 -->
+    <!-- <link rel="stylesheet" href="./css/slider.css"> -->
+    <link rel="stylesheet" href="./css/shoppingcart.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <!-- 版心 -->
+            <div class="lg-container clearfix">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="./img/04-shopping_02.jpg" alt="#">
+                    </a>
+                </h1>
+                <div class="txturl fl">legochina.cn</div>
+                <div class="loginbox fr">欢迎光临乐购，请 <a href="./login.html">登陆</a>\<a>注册</a></div>
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div class="topsearch lg-container clearfix">
+
+            <form action="#" method="GET" class="fr mt4">
+                <input type="text" name="search" class="fl outline-style" value="" placeholder="设计中的设计 原研哉">
+                <input type="submit" value="" class="fl outline-style">
+            </form>
+        </div>
+        <!-- 配送地区 -->
+        <p class="lg-container clearfix distribution-region c4d">
+
+            <select name="region" id="region" class="fr mt16 mr14">
+                <option value="chendu">成都高新区三环内</option>
+                <option value="chendu">万州新城路</option>
+                <option value="chendu">万州高笋塘</option>
+                <option value="chendu">万州太白岩</option>
+            </select>
+            <span class="fr">配送至</span>
+        </p>
+
+    </header>
+    <!-- 订单 -->
+    <div id="order-form" class=" lg-container">
+        <form action="#" method="GET">
+            <!-- 订单头部 -->
+            <p class="font20 c666">填写并核对订单信息</p>
+            <div class="clearfix font18 c80 ordertop bgcf2">
+                <p class="fl ml25">
+                    <label><input type="checkbox" name="all" value="" class="cheall"> 全选</label><span class="ml">商品</span>
+                </p>
+                <ul class="clearfix fr">
+                    <li class="mr127">单价</li>
+                    <li class="mr113">数量</li>
+                    <li class="mr113">小计</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <!-- 订单内容 -->
+            <ul class="order-content font16 mt25">
+                <li class="clearfix mt25">
+                    <!-- 左边 -->
+                    <div class="l-oc fl">
+                        <input type="checkbox" name="commodity" value="" class="singleche">
+                        <img src="./img/index08_05.jpg" alt="">
+                    </div>
+                    <!-- 右边 -->
+                    <div class="r-oc fr">
+                        <ul>
+                            <li class="trade-name">从你的全世界路过</li>
+                            <li class="unit-price">41.00</li>
+                            <li class="mr70  amount tcenter">
+                                <span class="subtract fl">-</span>
+                                <input type="number" value="1" class="cont fl">
+                                <span class="plus fl">+</span>
+                            </li>
+                            <li class="subtotal">41.00</li>
+                            <li class="operation">
+                                <p class="delete">删除</p>
+                                <p class="mycare">移到我的关注</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="clearfix mt25">
+                    <!-- 左边 -->
+                    <div class="l-oc fl">
+                        <input type="checkbox" name="commodity" value="" class="singleche">
+                        <img src="./img/index08_05.jpg" alt="">
+                    </div>
+                    <!-- 右边 -->
+                    <div class="r-oc fr">
+                        <ul>
+                            <li class="trade-name">从你的全世界路过</li>
+                            <li class="unit-price">41.00</li>
+                            <li class="mr70  amount tcenter">
+                                <span class="subtract fl">-</span>
+                                <input type="number" value="1" class="cont fl">
+                                <span class="plus fl">+</span>
+                            </li>
+                            <li class="subtotal">41.00</li>
+                            <li class="operation">
+                                <p class="delete">删除</p>
+                                <p class="mycare">移到我的关注</p>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!-- 订单底部 -->
+            <div class="clearfix font18 c80 footer bgcf2 mt28">
+                <p class="fl ml25">
+                    <label><input type="checkbox" name="all" value="" class="cheall">
+                    全选</label>
+                    <span class="ml chedelete">删除选中商品</span>
+                </p>
+                <ul class="clearfix fr">
+                    <li class="">已选择 <span class="cf60 quantity totalnum">0</span> 件商品</li>
+                    <li class="">总价 <span class="cf60 total-prices">0.00</span></li>
+                    <li class="tcenter font26"><a href="" class="go c80">去结算</a></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+      <!-- 猜你喜欢 -->
+      <div id="like" class="lg-container">
+        <!-- 标题 -->
+        <div class="re-title mt14 font24 c333 clearfix">
+            <h2 class="font28 fl bgcf60 cff">猜</h2>
+            <h2 class="font24 fl">你喜欢</h2>
+        </div>
+        <!-- 内容 -->
+        <div class="likeslider">
+            <!-- 轮播的盒子 -->
+            <div class="likesliderbox">
+                <ul class="clearfix">
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                    <li class="fl ml26 mt25">
+                        <a href=""><img src="./img/22790777-1_l_1.jpg" alt="" class="ml10"></a>
+                        <p class="c333">查理 斯密斯</p>
+                        <p class="c80">中国邮电出版社</p>
+                        <p class="font18 cf42">￥49 <span class="cb3b3">￥79</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="footbanner" class="lg-container mt30">
+        <a href=""><img src="./img/03-mosou_03.jpg" alt=""></a>
+    </div>
+    
+    <footer id="footer">
+        <!-- 尾页头部 -->
+        <div class="foot tcenter bgcf2">
+            <img src="./img/222_11.png" alt="" class="mr80">
+            <img src="./img/222_13(1).png" alt="" class="mr80">
+            <img src="./img/222_15.png" alt="" class="mr80">
+            <img src="./img/222_17.png" alt="">
+        </div>
+        <!-- 链接 -->
+        <div class="tcenter clearfix footlink font18">
+            <ul class="fl mr48">
+                <li><a href="" class="c000 ">购物指南</a></li>
+                <li><a href="">购物流程</a></li>
+                <li><a href="">发票制度</a></li>
+                <li><a href="">账户管理</a></li>
+                <li><a href="">会员优惠</a></li>
+            </ul>
+            <ul class="fl mr48">
+                <li><a href="" class="c000">支付方式</a></li>
+                <li><a href="">货到付款</a></li>
+                <li><a href="">网上支付</a></li>
+                <li><a href="">礼品卡支付</a></li>
+                <li><a href="">银行转帐</a></li>
+            </ul>
+            <ul class="fl mr48">
+                <li><a href="" class="c000">订单服务</a></li>
+                <li><a href="">订单配送查询</a></li>
+                <li><a href="">订单状态说明</a></li>
+                <li><a href="">自助取消订单</a></li>
+                <li><a href="">自助修改订单</a></li>
+            </ul>
+            <ul class="fl mr48">
+                <li><a href="" class="c000">退换货</a></li>
+                <li><a href="">退换货政策</a></li>
+                <li><a href="">自助申请退换货</a></li>
+                <li><a href="">退换货进度查询</a></li>
+                <li><a href="">退款方式和时间</a></li>
+            </ul>
+            <ul class="fl">
+                <li><a href="" class="c000">商家服务</a></li>
+                <li><a href="">商家中心</a></li>
+                <li><a href="">运营服务</a></li>
+                <li><a href="">加入尾品汇</a></li>
+            </ul>
+        </div>
+        <!-- 网站链接 -->
+        <p class="weblinks tcenter">
+            <a href="" class="c333 ml15">公司简介</a>
+            |<a href="" class="c333 ml15">Investor Relations</a>
+            |<a href="" class="c333 ml15">网站联盟</a>
+            |<a href="" class="c333 ml15">乐购招商</a>
+            |<a href="" class="c333 ml15">机构销售</a>
+            |<a href="" class="c333 ml15">手机乐购</a>
+            |<a href="" class="c333 ml15">官方Blog</a>
+            |<a href="" class="c333 ml15">热词搜索</a>
+        </p>
+        <p class="copyright tcenter mt30 mb100">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        <img src="./img/logo_00.png" alt="" class="footlogo">
+
+    </footer>
+
+
+ 
+    <script src="./js/jquery.js"></script>
+    <script src="./js/shoppingcart.js"></script>
+    <!-- <script src="./lib/jquery.slidebox.js"></script> -->
+    <!-- <script src="./js/index.js"></script> -->
+
+</body>
+
+</html>

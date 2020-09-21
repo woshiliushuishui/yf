@@ -1,0 +1,338 @@
+/* 图书 电子书 */
+/* 右边 */
+#ebook .l-ebook{
+    width: 900px;
+    /* height: 440px; */
+}
+#ebook .l-ebook .tab-control p{
+    width: 100px;
+    line-height: 32px;
+}
+#ebook .l-ebook .lebook-content{
+    width: 240px;
+    height: 440px;
+    background-color: #f9f9f9;
+}
+#ebook .l-ebook .lebook-content ul li{
+    list-style: none;
+    width: 80px;
+    float: left;
+    line-height: 38px;
+}
+#ebook .l-ebook .lebook-content ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+/* 右边轮播内容 */
+#ebook .l-ebook .r-slider-content{
+    width: 660px;
+    border-right: 2px solid #e6e6e6;
+    box-sizing: border-box;
+}
+#ebook .l-ebook .r-slider-content li{
+    width: 164px;
+    height: 220px;
+    box-sizing: border-box;
+    list-style: none;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    float: left;
+}
+#ebook .l-ebook .r-slider-content li:first-child{
+    width: 328px;
+    box-sizing: border-box;
+}
+#ebook .l-ebook .r-slider-content li h2,#ebook .l-ebook .r-slider-content li p{
+    text-indent: 5px;
+}
+#ebook .l-ebook .r-slider-content li p span{
+    text-decoration: line-through;
+    color: #b3b3b3;
+}
+/* 电子书选项卡 */
+#ebook .l-ebook .re-title .tab-control p.active{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#ebook .l-ebook .r-slider-content{
+    display: none;
+}
+#ebook .l-ebook .r-slider-content.cur{
+    display: block;
+}
+/* 右边新书畅销榜 */
+#ebook .newbook{
+    border: 1px solid #e6e6e6;
+    width: 284px;
+    height: 444px;
+}
+
+#ebook .newbook ul li{
+    position: relative;
+    list-style: none;
+    line-height: 40px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#ebook .newbook ul li p{
+    width: 126px;
+    padding-right: 8px;
+}
+#ebook .newbook ul span{
+    position: absolute;
+    top: 0;
+    left: -16px;
+}
+/* 服装 */
+
+.l-cloth .lcloth-content{
+    width: 240px;
+    /* height: 440px; */
+    background-color: #f9f9f9;
+}
+.tab-control li{
+    width: 100px;
+    line-height: 32px;
+    list-style: none;
+    float: left;
+}
+/* 服装左内容 */
+.l-cloth .lcloth-content ul li{
+    list-style: none;
+    width: 80px;
+    float: left;
+    line-height: 38px;
+}
+.l-cloth .lcloth-content ul li a{
+    color: #333333;
+}
+/* 中间轮播区 */
+.l-cloth .middle-slide{
+    width: 424px;
+    border: 1px solid #e6e6e6;
+}
+.l-cloth .middle-slide .img{
+    width: 424px;
+    height: 158px;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+.l-cloth .middle-slide .img a{
+    width: 424px;
+    height: 158px;
+    display: inline-block;
+    background: url(../img/index11_08.jpg) no-repeat;
+    background-position-x: -3px;
+}
+/* 右边选项卡内容区 */
+.r-content{
+    width: 534px;
+}
+.r-content li{
+    list-style: none;
+    width: 178px;
+    height: 339px;
+    border: 1px solid #e6e6e6;
+    float: left;
+    box-sizing: border-box;
+}
+.r-content .wh{
+    width: 178px;
+    height: 159px;
+}
+
+/* 服装选项卡 */
+#cloth .re-title .tab-control li.active{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#cloth .r-content{
+    display: none;
+}
+#cloth .r-content.cur{
+    display: block;
+}
+/* 运动选项卡 */
+#sport .re-title .tab-control li.active{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#sport .r-content{
+    display: none;
+}
+#sport .r-content.cur{
+    display: block;
+}
+/* 童装选项卡 */
+#childcloth .re-title .tab-control li.active{
+    background-color: #ff6600;
+    color: #ffffff;
+}
+#childcloth .r-content{
+    display: none;
+}
+#childcloth .r-content.cur{
+    display: block;
+}
+/* 服装logo */
+.cloth-logo a img{
+    width: 126px;
+}
+/* 家具日用 */
+#house .r-content{
+    width: 712px;
+    box-sizing: border-box;
+}
+#house .img{
+    display: inline-block;
+    width: 488px;
+    height: 500px;
+    background: url(../img/index21_05.jpg) no-repeat;
+    background-position-x: 1px;
+    background-position-y: -2px;
+}
+/* 推广商品 */
+#spread .promption{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* btn */
+#spread .re-title .btn p{
+    width: 12px;
+    height: 12px;
+    float: left;
+    border: 1px solid;
+    border-radius: 12px;
+
+}
+#spread .re-title .btn p.active{
+    background-color: #ff6600;    
+}
+#spread .promption{
+    display: none;   
+}
+#spread .promption.cur{
+    display: block;
+}
+#spread .promption li{
+    width: 150px;
+    height: 300px;
+    padding: 0 32px;
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    /* box-sizing: border-box; */
+}
+#spread .promption li>p a img{
+    vertical-align: middle;
+}
+/* 页尾 */
+#footer{
+    position: relative;
+}
+.foot{
+    border-top: 6px solid #ff6600;
+    padding: 26px 0 18px 0;
+}
+#footer ul{
+    list-style: none;
+}
+#footer .footlink{
+    width: 680px;
+    margin: 30px auto 0;
+    line-height: 30px;
+}
+#footer .footlink ul li:not(:first-child) a{
+    color: #666666;
+}
+#footer .footlink ul li:first-child a{
+    font-weight: bold;
+}
+#footer .weblinks{
+    width: 800px;
+    margin: 30px auto 0;
+}
+/* footlogo */
+#footer .footlogo{
+    position: absolute;
+    bottom: 124px;
+    right: 352px;
+}
+/* 回到顶部 */
+#footer .back{
+    position: absolute;
+    right: 330px;
+    top: -50px;
+}
+/* 楼层 */
+.floor{
+    width: 40px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -680px;
+    transform: translateY(-50%);
+    background-color: #f3f3f3;
+    /* overflow: hidden; */
+}
+.floor div{
+    height: 40px;
+    padding-left: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    overflow: hidden;
+}
+.floor #btn1{
+   
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+}
+.floor #btn2{
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+    background-position-y: -80px;
+}
+.floor #btn3{
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+    background-position-y: -160px;
+}
+.floor #btn4{
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+    background-position-y: -200px;
+}
+.floor #btn5{
+    background: url(../img/fix_box_icon_160622.png) no-repeat;
+    background-position-y: -320px;
+}
+/* 领卷中心 */
+.welfare{
+    width: 140px;
+    height: 200px;
+    position: absolute;
+    top: 212px;
+    right: -101px;
+}
+.welfare ul li{
+    list-style: none;
+}
+.welfare ul li img{
+    vertical-align: middle;
+}
+.welfare ul li .erweima{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+/* 顶部滑动 */
+#topslide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(16,55,200,.7);
+    display: none;
+}
+#topslide form{
+    float: none;
+    margin: 0 auto;
+}

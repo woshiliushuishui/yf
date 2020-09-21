@@ -1,0 +1,68 @@
+.welcome p{
+    line-height: 77px;
+    margin-left: 274px;
+}
+
+header .top .txturl{
+    margin-left: 260px;
+}
+header .welcome p:last-child{
+    line-height: 56px;
+    margin-top: 21px;
+}
+/* banner */
+#banner{
+    width: 100%;
+    height: 700px;
+    border-top: 2px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    box-sizing: border-box;
+}
+#banner .register{
+    width: 400px;
+    height: 697px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 53px;
+}
+#banner .register form p{
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    position: relative;
+}
+#banner .register form p span{ 
+    text-indent: 10px;
+    width: 128px;
+    display: inline-block;
+    font-size: 22px;
+}
+#banner .register form p input{
+    width: 270px;
+    border: 0;
+    line-height: 42px;
+    font-size: 16px;
+    color: #666666;
+}
+/* 验证码 */
+#banner .register form>p>button{
+    width: 124px;
+    height: 36px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    border: 0;
+}
+/* 立即注册按钮 */
+#banner .register form>div>input{
+    width: 100%;
+    line-height: 40px;
+    border: 0;
+}
+/* 表单验证 */
+label.error{
+    position:absolute;
+    left: -130px;
+    top: 12px;
+    color: red;
+    font-size: 14px;
+}

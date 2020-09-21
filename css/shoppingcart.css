@@ -1,0 +1,155 @@
+/* 顶部 */
+html{
+    user-select: none;
+}
+header .top .txturl{
+    margin-left: 260px;
+}
+header .distribution-region{
+    line-height: 50px;
+}
+/* 订单头部 */
+#order-form form .ordertop ul{
+    width: 560px;
+}
+#order-form form .ordertop ul li{
+    list-style: none;
+    float: left;
+}
+#order-form form .ordertop{
+    line-height: 60px;
+}
+#order-form form .ordertop p span{
+    margin-left: 180px;
+}
+/* 订单内容 */
+#order-form form .order-content{
+    /* background-color: pink; */
+    border-top: 6px solid #dfdfdf;
+}
+#order-form form .order-content >li{
+    list-style: none;
+    padding: 0 0 25px 25px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#order-form form .order-content li img{
+    vertical-align: top;
+    margin-left: 50px;
+}
+/* 右边内容 */
+#order-form form .order-content li .r-oc{
+    width: 936px;
+    line-height: 25px;
+}
+#order-form form .order-content li .r-oc li{
+    float: left;   
+    margin-top: 20px;
+    list-style: none;
+}
+
+#order-form form .order-content li .r-oc .amount{
+    width: 124px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+#order-form form .order-content li .r-oc .amount input{
+    width: 72px;
+    line-height: 25px;
+    border: 0;
+    text-align: center;
+    outline: none;
+}
+#order-form form .order-content li .r-oc .amount input::-webkit-outer-spin-button,
+#order-form form .order-content li .r-oc .amount input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+#order-form form .order-content li .r-oc ul .trade-name{
+    width: 378px;
+}
+#order-form form .order-content li .r-oc ul .unit-price{
+    width: 118px;
+}
+#order-form form .order-content li .r-oc ul .subtotal{
+    width: 150px;
+}
+#order-form form .order-content li .r-oc .amount span{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25px;
+    cursor: pointer;
+}
+.subtract{
+    border-right: 1px solid #cccccc;
+}
+.plus{
+    border-left: 1px solid #cccccc;
+}
+#order-form form .order-content li .r-oc .operation p{
+    cursor: pointer;
+}
+/* 订单底部 */
+#order-form form .footer ul{
+    width: 475px;
+}
+#order-form form .footer ul li{
+    list-style: none;
+    float: left;
+}
+#order-form form .footer ul li:first-child{
+    width: 185px;
+}
+#order-form form .footer ul li:nth-child(2){
+    width: 160px;
+}
+#order-form form .footer ul .go{
+    width: 128px;
+    display: inline-block;
+}
+#order-form form .footer{
+    line-height: 60px;
+}
+#order-form form .footer p .chedelete{
+    margin-left: 180px;
+}
+#order-form form .ordertop p label:hover,
+#order-form form .footer p label:hover,
+#order-form form .footer p .chedelete:hover,
+.delete:hover,.mycare:hover,.subtract:hover,.plus:hover{
+    color: #ff6060;
+    cursor: pointer;
+}
+/* 猜你喜欢 */
+#like .re-title p {
+    cursor: pointer;
+}
+#like ul{
+    border-bottom: 1px solid #e6e6e6;
+}
+#like ul li{
+    width: 170px;
+    height: 222px;
+    list-style: none;
+}
+#like ul li p{
+    line-height: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+/* 换一换 */
+#like .likeslider{
+    /* background-color: pink; */
+    /* position: relative; */
+    /* height: 513px; */
+    overflow: hidden;
+}
+#like .likeslider .likesliderbox{
+    /* position: absolute; */
+    width: 100%;
+}
+#like .re-title p img{
+    vertical-align: top;
+}
+/* footbanner */
+#footbanner img{
+    vertical-align: bottom;
+}
