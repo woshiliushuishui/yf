@@ -41,6 +41,9 @@ a{
 .mt18{
     margin-top: 18px;
 }
+.mt20{
+    margin-top: 20px;
+}
 .mt16{
     margin-top: 16px;
 }
@@ -82,6 +85,9 @@ a{
     margin-top: 62px;
 }
 /* margin-left */
+.ml14{
+    margin-left: 14px;
+}
 .ml7{
     margin-left: 7px;
 }
@@ -143,6 +149,13 @@ a{
 .mr250{
     margin-right: 250px;
 }
+/* padding */
+.pt30{
+    padding-top: 30px;
+}
+.pl10{
+    padding-left: 10px;
+}
 /*  */
 .outline-style{
     outline-style: none;
@@ -160,15 +173,24 @@ a{
 .bgcf6{
     background-color: #f6f6f6;
 }
+.bgcf5{
+    background-color: #f5f5f5;
+}
 .bgcf60{
     background-color: #ff6600;
 }
 .bgc1a8{
     background-color: #1a83e5;
 }
+.bgcfff{
+    background-color: #ffffff;
+}
 /* color */
 .cf42{
     color: #f4290d;
+}
+.c64{
+    color: #646464;
 }
 .b3b3{
     color: #b3b3b3;
@@ -208,6 +230,25 @@ a{
 }
 .c000{
     color: #000000;
+}
+.cfb2{
+    color: #fb2f2f;
+}
+.c34{
+    color: #343434;
+}
+.cf80{
+    color: #f80e0e;
+}
+.c94{
+    color: #949494;
+}
+.c6c6{
+    color: #6c6c6c;
+}
+/* 加粗 */
+.fb{
+    font-weight: bold;
 }
 /* font-size */
 .font12{
@@ -342,6 +383,7 @@ header .topsearch .shopping a:last-child{
 /* 导航 */
 .nav{
     padding-top: 20px ;
+    font-weight: bold;
 }
 .nav ul{
     list-style: none;

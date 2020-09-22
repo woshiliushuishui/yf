@@ -103,7 +103,9 @@ header .distribution-region{
 }
 #order-form form .footer ul .go{
     width: 128px;
-    display: inline-block;
+    line-height: 60px;
+    border: 0;
+    outline: none;
 }
 #order-form form .footer{
     line-height: 60px;
